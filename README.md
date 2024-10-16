@@ -8,7 +8,7 @@ In this project, I implemented a deep learning-based approach using the ResNet18
 
 The Machine Learning pipline includes the following steps:
 
-1. Library Imports and Setup: Essential Python libraries such as Pandas, PyTorch, and Matplotlib are imported. Setup involves configuring paths for data storage (`data/`) and results output (`results/`), and initializing hyperparameters like learning rate and batch size.
+1. Library Imports and Setup: Essential Python libraries such as Pandas, PyTorch, cv2 and Matplotlib are imported. Setup involves configuring paths for data storage (`data/`) and results output (`results/`), and initializing hyperparameters like learning rate and batch size.
 
 2. Data Reading and Description: The annotations from the `public.csv` file are read using Pandas. This CSV file contains image annotations which are crucial for understanding the data distribution and guiding further processing for model training.
 
