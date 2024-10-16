@@ -1,4 +1,4 @@
-#Binary Classification of globally sclerotic and non-sclerotic glomeruli
+# Binary Classification of globally sclerotic and non-sclerotic glomeruli
 
 Introduction: Glomeruli, crucial components of the kidney, play an essential role in filtering blood to maintain healthy renal function. Structural abnormalities in glomeruli are often early indicators of renal diseases. Therefore, accurately distinguishing between globally sclerotic and non-sclerotic glomeruli is critical for effective diagnosis and treatment of kidney-related disorders.
 
