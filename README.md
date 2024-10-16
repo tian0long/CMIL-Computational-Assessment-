@@ -21,7 +21,7 @@ The Machine Learning pipline includes the following steps:
 5. Model Configuration: The ResNet18 model, pre-trained on ImageNet, is adapted for the binary classification task. Unfreeze the last 4 layers for transfer learning and the last fully connected layer is modified to output two classes.
 6.  Model Training: The training process is carried out over a specified number of epochs. During training, model parameters are updated using the Adam optimizer, and learning rate adjustments are made with a StepLR scheduler. Training and validation losses and accuracies are tracked for performance monitoring.
 7.  Model Saving: Post-training, the model's state dictionary is saved for future evaluation and deployment, ensuring that the trained model can be reused without the need for retraining.
-8.  Model Evaluation: The model is evaluated on a separate testing set using metrics like accuracy, precision, recall, and F1 score. Additional performance insights are provided through a confusion matrix, precision-recall curve, and ROC curve.
+8.  Model Evaluation: The model is evaluated on a separate testing set using metrics like accuracy, precision, recall, and F1 score. 
 
 ## Dataset and Preprocessing
 The dataset is organized into two sub-folders within the `data/` directory: `globally_sclerotic_glomeruli` and `non_globally_sclerotic_glomeruli`, containing image patches for sclerotic and non-sclerotic classes, respectively. The `public.csv` file lists the image patches with their corresponding labels. Since the samples is not balance between those two categories, we go through the data augmentation for sclerotic, which increase the number of samples to 4 times. Then use CLAHE to improve contract, avoid over-amplification of noise. 
